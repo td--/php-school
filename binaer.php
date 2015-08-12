@@ -11,18 +11,18 @@ echo '<form action="binaer.php" method="post">
  <p><input type="submit" /></p>
 </form>';
 
-//Schnellrechenweg
+//Ergebnis
 echo decbin($zahl);
 echo '<br><br>';
-
+echo '<pre>';
 //Rechenweg
 echo '<h1>Rechenweg:</h1><br>';
 $rechenweg=$zahl;
 if ($zahl=='0'){
-echo 'Zahl ist 0'
+echo 'Zahl ist 0';
 }
 else{
-		echo '#		Wert	Rest'
+		echo '#     Wert	Rest<br>';
 	while ($rechenweg >= 1){
 		echo $i.' :   '.$rechenweg.'   : '.($rechenweg%2).'<br>';
 		$rechenweg%2;
@@ -30,4 +30,5 @@ else{
 		$i=$i+1;
 	}
 }
+echo '</pre>';
 ?>

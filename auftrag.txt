@@ -1,0 +1,28 @@
+UML Unifie Model Language
+Klassendiagramm
+Klase 
+
+[AUTO]
+_____________________
+Eigenschaften:		|
+-> +Farbe			|
+-> -KM Stand		|
+-> +Verbrauch		|
+-> +Tankstand		|
+-> +MaxTank			|
+____________________|
+-> +tanken(Liter)	|
+-> +fahren(KM)		|
+_____________________
+
+
+
+Sparkonto
++Inhaber
+ Kontostand
++Kontonr
++BLZ
+________________
+einzahlen(Betrag)
+einzahlen(Betrag)
+Info()
